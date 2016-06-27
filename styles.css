@@ -3,5 +3,32 @@ img {
 }
 body {
     text-align: center;
-    font-family: "arial";
+    font-family: "times new roman";
+    color:white;
+    background-image: url(http://www.lowes.com/projects/images/how-tos/Lawn-Landscaping/choose-the-right-grass-for-your-lawn-hero.jpg)
+}
+.cat {
+    height: 166px;
+    border: 1px solid black;
+}
+p {
+    width:200px;
+    border: 3px solid black;
+    outline-color: black;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 125%;
+}
+.solid {outline-style: double;}
+.dog {
+    border: 1px solid black;
+     position: absolute;
+    margin:-100px 0 0 -1px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 }
