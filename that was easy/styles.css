@@ -1,9 +1,19 @@
 #easy {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 150px;
     border-radius: 150px;
     border-color: black;
-    background-color: red;
+    background-color: purple;
     font-size: 50px;
     color: white;
 }
+#easy {public static void main(Strings args[]){
+    
+    Scanner alex = new Scanner(System.in);
+    double test;
+    while(true) {
+        test = alex.nextdouble();
+        if (test == 9){
+            system.out.println(thatWasEasy);
+        }else
+    }
