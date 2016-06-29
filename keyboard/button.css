@@ -1,6 +1,6 @@
 #easy1 {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 150px;
     border-color: black;
     background-color: red;
@@ -9,21 +9,70 @@
 }
 
 #easy2 {
-     width: 100px;
-    height: 100px;
+     width: 75px;
+    height: 75px;
     border-radius: 150px;
     border-color: black;
-    background-color: red;
+    background-color: blue;
     font-size: 20px;
     color: white;
 }
 
 #easy3 {
-     width: 100px;
-    height: 100px;
+     width: 75px;
+    height: 75px;
     border-radius: 150px;
     border-color: black;
-    background-color: red;
+    background-color: yellow;
+    font-size: 20px;
+    color: black;
+}
+
+#easy4 {
+      width: 75px;
+    height: 75px;
+    border-radius: 150px;
+    border-color: black;
+    background-color: violet;
     font-size: 20px;
     color: white;
+}
+
+#easy5 {
+      width: 75px;
+    height: 75px;
+    border-radius: 150px;
+    border-color: black;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+}
+
+#easy6 {
+      width: 75px;
+    height: 75px;
+    border-radius: 150px;
+    border-color: black;
+    background-color: indigo;
+    font-size: 20px;
+    color: white;
+}
+
+#easy7 {
+      width: 75px;
+    height: 75px;
+    border-radius: 150px;
+    border-color: black;
+    background-color: orange;
+    font-size: 20px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    border: solid black;
+}
+
+body {
+    background-color: brown;
 }
