@@ -41,7 +41,7 @@ function draw() {
       x = x + circleRadius;
     }
 
-    y = y - circleRadius;
+    y = y + circleRadius;
     isShifted = !isShifted;
 
     rVal = (rVal + 2504) % 256;
