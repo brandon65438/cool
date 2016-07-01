@@ -8,11 +8,11 @@ var backgroundImage;
 function preload() {
   playerImage = loadImage("dogo.png")
   enemyImage = loadImage("more dogo.png")
-  backgroundImage = loadImage("https://surrogate.hackedu.us/i.imgur.com/aKQOg3G.png")
+  backgroundImage = loadImage("park.jpg")
 }
 
 function setup() {
-    createCanvas(256, 256);
+    createCanvas(600, 600);
     isGameOver = false;
     player = createSprite(0+playerImage.width/2, height-(playerImage.height/2), 0, 0);
     player.addImage(playerImage);
@@ -29,11 +29,11 @@ function draw() {
         background(backgroundImage);
     
         if(keyDown(UP_ARROW) && player.position.y > (playerImage.height/2)) {
-        player.position.y -= 2;
+        player.position.y -= 6;
         }
     
-        if(keyDown(DOWN_ARROW) && player.position.y < 256 - playerImage.height/2) {
-        player.position.y += 2;
+        if(keyDown(DOWN_ARROW) && player.position.y < 600 - playerImage.height/2) {
+        player.position.y += 6;
         }
     
         enemy.position.x = enemy.position.x - 6;
