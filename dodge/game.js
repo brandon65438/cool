@@ -4,6 +4,7 @@ var playerImage;
 var enemy;
 var enemyImage;
 var backgroundImage;
+var bono;
 
 function preload() {
   playerImage = loadImage("dogo.png")
@@ -47,7 +48,10 @@ function draw() {
         gameOver();
         isGameOver = false;
         }
+        
        drawSprites();
+       
+    bono();
     }
 }
     
@@ -70,3 +74,7 @@ function mouseClicked() {
     } 
 }
  
+ function bono() {
+     fill("white");
+     text("Score:" + score, width-120, 25);
+ }
