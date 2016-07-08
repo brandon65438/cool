@@ -20,7 +20,8 @@ function preload() {
 
 function setup() {
     createCanvas(800, 600);
-    // sun = createSprite(width/2,height/2,50,50)
+    sun = createSprite(width/2,height/2,50,50);
+    sun.addImage(sunImage);
     egg = createSprite
     net = createSprite(width / 2, height / 2, 50, 50);
     net.addImage(netImage);
