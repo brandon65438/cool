@@ -44,7 +44,8 @@ function setup() {
 function draw() {
     if (gameStart) {
         gameStarted();
-    } else {
+    }
+    else {
         background(0, 53, 84);
 
         if (keyDown(RIGHT_ARROW)) {
@@ -112,18 +113,18 @@ function gameStarted() {
     fill("white")
     textAlign(CENTER);
     textFont("Comic Sans MS")
-    text("GOOODZIRRRRRRA NUUUUU", width/2,height/2)
-    text("Click anywhere to start", width/2, 5*height/8)
+    text("GOOODZIRRRRRRA NUUUUU", width / 2, height / 2)
+    text("Click anywhere to start", width / 2, 5 * height / 8)
 }
 
-function mouseClicked() { 
+function mouseClicked() {
     score = 0
-    
+
     if (gameStart) {
         gameStart = false;
-        godzilla.position.x = width/4;
+        godzilla.position.x = width / 4;
         godzilla.position.y = height - 170;
-        building.position.x = 3*width/4;
+        building.position.x = 3 * width / 4;
         building.position.y = height - 100;
     }
 }

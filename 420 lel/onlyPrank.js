@@ -73,8 +73,8 @@ function draw() {
         if (car2.position.y < camera.position.y - 1200)
             car2.position.y = camera.position.y + random(500, 800);
 
-        if (car2.position.y > camera.position.y + 800) {
-            car2.position.x = random(120, width - 120);
+        if (car2.position.y > camera.position.y + 500) {
+            car2.position.x = random(width/2, width-120);
         }
 
 
@@ -110,5 +110,7 @@ function mouseClicked() {
         player.position.y = height - (playerImage.height / 2);
         car1.position.x = width / 3;
         car1.position.y = camera.position.y - 1200;
+        car2.position.x = 2*width / 3;
+        car2.position.y = camera.position.y + 500;
     }
 }
